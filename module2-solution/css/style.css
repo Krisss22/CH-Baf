@@ -1,3 +1,65 @@
-body {
-	width: 100%;
+* {
+	box-sizing: border-box;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+	text-align: center;
+
+}
+.container {
+
+	margin: 15px;
+	height: 100%;
+
+}
+
+.items {
+	float: left;
+	width: 30%;
+	background-color: lightgray;
+	border: 1px solid black;
+	padding: 0 10px;
+	margin: 1%;
+	position: relative;
+
+}
+.name {
+	width:130px;
+	border: 1px solid black;
+	text-align: center;
+	margin-top: -1px;
+	margin-right: -1px;
+	position:absolute;
+	top:0;
+	right:0;
+}
+.n1 {
+	background-color: lightpink;
+}
+.n2 {
+	background-color: red;
+}
+.n3 {
+	background-color: yellow;
+}
+
+
+
+p{
+	padding: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .i1, .i2 {
+  	width: 45%;
+  }
+  .i3 {
+  	width: 92%;
+  }
+}
+@media (max-width: 767px) {
+	.items {
+		width: 100%;
+	}
 }
