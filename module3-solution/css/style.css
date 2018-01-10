@@ -1,0 +1,106 @@
+.navbar-brand {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav #nav-list a:hover{
+  background: #E7E7E7;
+}
+
+}
+ hr{
+  width: 75%;
+  margin:5px;
+ }
+.page-title h2{
+  margin-bottom:25px;
+}
+ /* main content */
+ #main-content {
+  border: 1px solid gray;
+  background-color: #eee;
+  margin-bottom: 20px;
+ }
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+  /* navbar */
+  .navbar-right {
+    display: none;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+.navbar-right {
+  display: none;
+}
+
+  /* Home Page */
+
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .navbar-right {
+    display: none;
+}
+  .container {
+    margin: 0 auto 20px;
+
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .container {
+    margin: 20px;
+  }
+  #collapsable-nav #nav-list a:hover{
+  background: #E7E7E7;
+  }
+  hr {
+    margin: 5px;
+  }
+  .container {
+    margin-bottom: 0;
+  }
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
